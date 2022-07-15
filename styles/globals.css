@@ -1,9 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color:#f1f1f1;
+    background:rgb(14 37 56 )
 }
 
 a {
@@ -14,3 +21,44 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.gjs-cv-canvas{
+  width:100% !important;
+}
+
+.gjs-pn-views-container {
+    display:none !important; 
+}
+
+.gjs-pn-panel {
+  position: relative !important;
+}
+
+.gjs-one-bg{
+  background-color:#0e2538!important;
+}
+
+.gjs-two-color{
+  color:#fff !important;
+}
+.gjs-three-color{
+  background-color: #3b49df;
+}
+.gjs-four-color,
+.gjs-four-color-h:hover{
+  color:#00fc7e !important;
+}
+
+.gjs-category-title, .gjs-layer-title, .gjs-block-category .gjs-title, .gjs-sm-sector-title{
+
+  background:#0e2538 !important;
+ border-bottom:1px solid #fff!important;
+ font-weight: 700 !important;
+ color: #fff !important;
+
+}
+
+.gjs-selected{
+  border:3px dashed #00fc7e !important;
+}
+
